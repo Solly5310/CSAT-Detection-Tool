@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "Csat App",
+    "short_description": "The app will instantly detect customer sentiment",
+    "long_description": "The app provides three different scores",
+    "installation_instructions": "Simply click install."
+  }
+}
