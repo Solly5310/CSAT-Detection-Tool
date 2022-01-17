@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "CSAT-Detection-Tool",
+			"path": "../CSAT-Detection-Tool"
+		}
+	],
+	"settings": {}
+}

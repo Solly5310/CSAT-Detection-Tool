@@ -9,6 +9,7 @@
    -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock@7.0.21,npm/@zendeskgarden/css-utilities@4.3.0">
   <link href = "main.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
 </head>
 <body>
   <div>
@@ -28,19 +29,20 @@
     </table>
     <table id = "responseTable"></table>
   </div>
-  <!-- 
-  <script id="requester-template" type="text/x-handlebars-template">
-    <table>
-      <tr>
-        <td>Customer State:</td>
-         variable for customer name in ticket
-        <td class="sentiment">{{state}}</td>
-      </tr>
-    </table>
-  </script>
-  -->
 
-  
+  <div>
+    <canvas id="myChart"></canvas>
+  </div>
+   
+
+
+  <footer class="footer">
+    <p>Bugs/Suggestions, please report  - <a href="https://github.com/Solly5310/CSAT-Detection-Tool/issues", target="_blank">here</a>
+    </p>
+  </footer>
+    
+
+  <!-- Zendesk App Framework-->
   <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
   <!-- Jquery -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
