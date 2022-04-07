@@ -1,14 +1,12 @@
-# App name
+# Overview
 
-[brief description of the app]
+The following application integrates with the Zendesk Suppport CRM Tool. It provides a search functionality to check customer sentiment over multiple tickets.
 
 ### The following information is displayed:
 
-* info1test
-* info2
-* info3
+* Customer Sentiment for each ticket within search parameters
+* Scoring of each customer response
+* Graphical representation of customer responses over time
 
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
-
-### Screenshot(s):
-[put your screenshots down here.]
+Please get in touch with me if you would like a demonstration:
+https://www.linkedin.com/in/solomonrachamim/
